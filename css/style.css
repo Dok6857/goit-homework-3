@@ -37,12 +37,12 @@ main {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.navigation-container {
+/* .navigation-container {
     display: flex;
     width: 100%;
     max-width: 452px;
     align-items: center;
-}
+} */
 
 .menu-navigation {
     display: flex;
