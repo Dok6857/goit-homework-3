@@ -58,7 +58,7 @@ main {
 
 .menu-navigation-list {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 .address-container {
@@ -93,8 +93,6 @@ text-transform: uppercase;
 }
 
 .navigation-list-container {
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .menu-navigation-item {
@@ -105,6 +103,7 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-decoration: none;
+padding: 24px 0;
 }
 
 .address {
@@ -276,6 +275,7 @@ text-transform: capitalize;
 .portfolio-card-container {
     border: 1px solid #E7E9FC;
     padding: 32px 16px;
+    border-top: none;
 }
 
 .portfolio-subtitle {
@@ -310,7 +310,7 @@ letter-spacing: 0.02em;
 
 .footer-logo {
     color: #f4f4fd;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .footer-text {
