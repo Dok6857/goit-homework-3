@@ -181,6 +181,10 @@ button {
     cursor: pointer;
 }
 
+.top-logo {
+    margin-right: 76px;
+}
+
 .logo {
     color: #4d5ae5;
 font-family: var(--secondary-font-family);
@@ -189,7 +193,6 @@ font-weight: 700;
 line-height: 1.17; /* 116.667% */
 letter-spacing: 0.03em;
 text-transform: uppercase;
-margin-right: 76px;
 }
 
 .team {
@@ -306,11 +309,11 @@ letter-spacing: 0.02em;
 
 .bottom-logo {
     display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo {
     color: #f4f4fd;
-    margin-bottom: 16px;
 }
 
 .footer-text {
